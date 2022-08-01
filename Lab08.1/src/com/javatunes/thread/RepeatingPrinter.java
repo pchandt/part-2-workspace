@@ -16,9 +16,9 @@ implements Runnable {
     while (true) {
       System.out.println("RepeatingPrinter.run");
       try {
-        Thread.sleep(1000);
+        Thread.sleep(500);
       }
-      catch (InterruptedException e) {
+      catch (InterruptedException ignored) {
       }
     }
   }
